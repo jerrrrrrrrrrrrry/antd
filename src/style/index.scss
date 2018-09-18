@@ -1,0 +1,71 @@
+.logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255,255,255,.2);
+  margin: 16px 1px 16px 0;
+  float: left;
+}
+.navmenu {
+  height: 100px;
+}
+.nav {
+  height: 100px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  background: #fff;
+  z-index: 999999;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0,0.2);
+}
+
+.nav span{
+  color: #333;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  height: 60px;
+  line-height: 60px;
+  text-transform: uppercase;
+
+}
+
+.gutter-box {
+  padding: 20px 11px 0 11px !important;
+}
+.banner .slick-slide {
+  text-align: center;
+  height: 250px;
+  line-height: 250px;
+  background: #364d79;
+  overflow: hidden;
+  margin-top: 100px;
+}
+.car_par .slick-slide {
+  text-align: center;
+  height: 70px;
+  line-height: 70px;
+  background: #364d79;
+  overflow: hidden;
+}
+.partners {
+  background: #364d79;
+  padding: 20px 0 20px;
+}
+
+
+.partners h3 {
+  font-size: 20px;
+  color: #fff;
+  line-height: 40px;
+  padding-bottom: 10px;
+  font-weight: normal;
+}
+
+body {
+  font-size: 13px;
+  color: #333;
+  background: #fff;
+  font-family: "微软雅黑";
+}
+

@@ -24,7 +24,7 @@ export default class Details extends Component {
 
     // 自定义一个方法，在其他地方用 this.方法名 来调用运行
     getData () {
-        // 通过 props.match 来拿到 url 中的 id
+        // 通过 props.match 来拿到 url 中的 id0
         let id = this.props.match.params.id
         Api.get(`topic/${id}`, null, r => {
             this.setState({dat: r.data, loading: false})
