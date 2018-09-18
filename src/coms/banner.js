@@ -8,7 +8,7 @@ export default class Banner extends Component {
 
     render() {
         return (
-            <Carousel effect="fade" autoplay >
+            <Carousel className="banner" effect="fade" autoplay >
                 <div><h3>1</h3></div>
                 <div><h3>2</h3></div>
                 <div><h3>3</h3></div>
