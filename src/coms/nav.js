@@ -19,8 +19,6 @@ export default class Nav extends Component {
     render() {
         return (
 
-
-
             <Menu
                 onClick={this.handleClick}
                 selectedKeys={[this.state.current]}
