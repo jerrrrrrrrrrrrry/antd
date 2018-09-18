@@ -74,7 +74,7 @@ export default class Nav extends Component {
                             </SubMenu>
                         </Menu>
                     </Col>
-                    <Col span={3}></Col>
+                    <Col span={3}><span>上海-02160909999</span></Col>
                     <Col span={1}></Col>
                 </Row>
             </div>

@@ -2,7 +2,7 @@
   width: 120px;
   height: 31px;
   background: rgba(255,255,255,.2);
-  margin: 16px 1px 16px 0;
+  margin: 16px 0px 16px 12px;
   float: left;
 }
 .navmenu {
@@ -69,3 +69,6 @@ body {
   font-family: "微软雅黑";
 }
 
+.buss Item{
+  margin: 0px 0px 0px 120px;
+}

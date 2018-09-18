@@ -51,7 +51,6 @@ export default class Index extends Component {
                 <Banner/>
                 <Bussness></Bussness>
                 <Partners/>
-                <Partners/>
 
                 {/*<Header title='网站首页'></Header>
                 {dom}*/}
