@@ -5,11 +5,12 @@ import Nav from '@/coms/nav.js'
 import Api from '@/tool/api.js'
 import Partners from '@/coms/partners.js'
 import Bussness from '@/coms/bussness.js'
-
+import Newsindex from '@/coms/news_list_index.js'
 
 // 这样，调用我们的自定义的组件
 import Header from '@/coms/header'
 import Banner from "@/coms/banner";
+import Foot from "../../coms/foot";
 
 export default class Index extends Component {
     constructor (props) {
@@ -50,7 +51,9 @@ export default class Index extends Component {
                 <Nav></Nav>
                 <Banner/>
                 <Bussness></Bussness>
+                <Newsindex/>
                 <Partners/>
+                <Foot/>
 
                 {/*<Header title='网站首页'></Header>
                 {dom}*/}

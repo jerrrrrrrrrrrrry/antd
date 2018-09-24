@@ -37,7 +37,7 @@ export default class Bussness extends Component {
                 <div style={{ background: '#fff'}}>
                     <Row>
                     <Col span={1}></Col>
-                    <Col span={6}>
+                    <Col span={7}>
                     <Card title="我们的业务" bordered={false} style={{ }}>
                         <p>上海现代物流投资发展有限公司为百联集团全资子公司，公司注册资本2.83亿元，总资产9.54亿元，年经营规模40多亿元。公司拥有丰富的物流资源和先进的运作技术，提供代理采购、加工、运输。包装、仓储、转运、配送、货代、国际货运等完整的供应链物流服务，以及供应链的咨询、规划、管理等服务。</p>
                         <a href="#">>了解更多</a>

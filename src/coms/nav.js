@@ -74,11 +74,15 @@ export default class Nav extends Component {
                             </SubMenu>
                         </Menu>
                     </Col>
-                    <Col span={3}><span>上海-02160909999</span></Col>
+                    <Col span={3}>
+                        <div className="phone">
+                            <a href="#">上海</a>
+                            |
+                            <a href="#">021-60909966</a>
+                        </div></Col>
                     <Col span={1}></Col>
                 </Row>
             </div>
-
 
         );
     }
