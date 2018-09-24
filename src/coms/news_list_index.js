@@ -1,11 +1,12 @@
 import React, {Component} from 'react'
 import { List, Avatar, Icon } from 'antd';
+import {Row, Col} from 'antd';
 
 
 const listData = [];
-for (let i = 0; i < 23; i++) {
+for (let i = 0; i < 6; i++) {
     listData.push({
-        href: 'http://ant.design',
+        href: '#',
         title: `ant design part ${i}`,
         avatar: 'https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png',
         description: 'Ant Design, a design language for background applications, is refined by Ant UED Team.',
@@ -25,15 +26,21 @@ export default class News_index extends Component {
 
     render() {
         return (
-            <List
+            <Row>
+
+            <Col span={20} offset={1}>
+                <List
+                grid={{ gutter: 16, column: 2 }}
                 itemLayout="vertical"
                 size="large"
-                pagination={{
+                pagination={
+                    {
                     onChange: (page) => {
                         console.log(page);
                     },
-                    pageSize: 3,
+                    pageSize: 6,
                 }}
+                pagination={false}
                 dataSource={listData}
                 footer={<div><b>ant design</b> footer part</div>}
                 renderItem={item => (
@@ -53,6 +60,8 @@ export default class News_index extends Component {
                     </List.Item>
                 )}
             />
+            </Col>
+            </Row>
         );
     }
 }

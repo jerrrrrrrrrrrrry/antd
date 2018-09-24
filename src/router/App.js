@@ -4,6 +4,7 @@ import {BrowserRouter, Router, Switch, Route} from 'react-router-dom'
 import SiteIndex from '@/page/site/index'
 import SiteDetails from '@/page/site/details'
 import SiteTest from '@/page/site/test'
+import SiteNews from '@/page/site/news'
 
 export default class App extends Component {
     render() {
@@ -14,6 +15,8 @@ export default class App extends Component {
                         <Route exact path='/' component={SiteIndex}/>
                         <Route exact path='/details/:id' component={SiteDetails}/>
                         <Route exact path='/test' component={SiteTest}/>
+                        <Route exact path='/id=5' component={SiteNews}/>
+                        <Route exact path='/id=6' component={SiteNews}/>
                     </Switch>
                 </div>
             </BrowserRouter>

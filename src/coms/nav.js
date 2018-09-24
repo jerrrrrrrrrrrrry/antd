@@ -50,8 +50,8 @@ export default class Nav extends Component {
                                 <Menu.Item key="setting:4"><NavLink exact activeClassNmae="selected" to="/id=4">合作伙伴</NavLink></Menu.Item>
                             </SubMenu>
                             <SubMenu title={<span>新闻资讯</span>} className="gutter-box">
-                                <Menu.Item key="setting:5">企业新闻</Menu.Item>
-                                <Menu.Item key="setting:6">经营动态</Menu.Item>
+                                <Menu.Item key="setting:5"><NavLink exact activeClassNmae="selected" to="/id=5">企业新闻</NavLink></Menu.Item>
+                                <Menu.Item key="setting:6"><NavLink exact activeClassNmae="selected" to="/id=6">经营动态</NavLink></Menu.Item>
                             </SubMenu>
                             <SubMenu title={<span>企业文化</span>} className="gutter-box">
                                 <Menu.Item key="setting:7">企业荣誉</Menu.Item>
