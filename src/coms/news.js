@@ -7,10 +7,10 @@ const listData = [];
 for (let i = 0; i < 50; i++) {
     listData.push({
         href: '#',
-        title: `ant design part ${i}`,
+        title: `公司召开第四届董事会第三次会议 ${i}`,
         avatar: 'https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png',
-        description: 'Ant Design, a design language for background applications, is refined by Ant UED Team.',
-        content: 'We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently.',
+        description: '公司召开第四届董事会第三次会议',
+        content: '7月31日下午，上海现代物流投资发展有限公司第四届董事会第三次会议在百联集团304会议室召开。会议由公司董事长孙丰主持，公司董事赵陈斌、史小龙、杨帆、徐波参加会议，监事钱文艺及公司其他领导班子成员列席会议。会议通报并审议了十项议程。（现代物流）',
     });
 }
 
@@ -28,7 +28,7 @@ export default class News_index extends Component {
         return (
             <Row>
 
-                <Col span={20} offset={1}>
+                <Col span={20} offset={2}>
                     <List
                         itemLayout="vertical"
                         size="large"
@@ -39,7 +39,6 @@ export default class News_index extends Component {
                             pageSize: 10,
                         }}
                         dataSource={listData}
-                        footer={<div><b>ant design</b> footer part</div>}
                         renderItem={item => (
                             <List.Item
                                 key={item.title}

@@ -21,7 +21,7 @@ export default class Foot extends Component {
         return (
             <div className="foot">
                 <Row>
-                    <Col span={10} offset={1}>
+                    <Col span={10} offset={2}>
                         <div className="foot_nav">
                             <div className="tele">
                                 <img src={phone} width="20px" height="auto"/>&emsp;

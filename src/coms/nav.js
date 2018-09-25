@@ -24,13 +24,13 @@ export default class Nav extends Component {
         return (
             <div className="nav">
                 <Row gutter={16} type="flex" justify="center">
-                    <Col span={1}></Col>
+                    <Col span={2}></Col>
                     <Col span={5}>
                         <div className="logo">
                             <img src={logo} alt=""/>
                         </div>
                     </Col>
-                    <Col span={14}>
+                    <Col span={13}>
                         <Menu
                             theme="light"
                             mode="horizontal"
@@ -44,7 +44,7 @@ export default class Nav extends Component {
                                 <NavLink exact activeClassNmae="selected" to="/"><span>网站首页</span></NavLink>
                             </Item>
                             <SubMenu title={<span>关于我们</span>} className="gutter-box">
-                                <Menu.Item key="setting:1"><NavLink exact activeClassNmae="selected" to="/test">公司简介</NavLink></Menu.Item>
+                                <Menu.Item key="setting:1"><NavLink exact activeClassNmae="selected" to="/id=1">公司简介</NavLink></Menu.Item>
                                 <Menu.Item key="setting:2"><NavLink exact activeClassNmae="selected" to="/id=2">组织机构</NavLink></Menu.Item>
                                 <Menu.Item key="setting:3"><NavLink exact activeClassNmae="selected" to="/id=3">市场地位</NavLink></Menu.Item>
                                 <Menu.Item key="setting:4"><NavLink exact activeClassNmae="selected" to="/id=4">合作伙伴</NavLink></Menu.Item>

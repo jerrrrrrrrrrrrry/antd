@@ -10,14 +10,14 @@ export default class Partners extends Component {
         return (
             <div className="partners">
                 <Row>
-                    <Col span={1}></Col>
+                    <Col span={2}></Col>
                     <h3>合作伙伴</h3>
                 </Row>
                 <Carousel autoplay className="car_par">
                     <div>
                         <div className="partners_first">
                             <Row>
-                                <Col span={1}></Col>
+                                <Col span={2}></Col>
                                 <div>
                                     <img src={cainiao} alt="cainiao"/>
                                 </div>
@@ -26,7 +26,7 @@ export default class Partners extends Component {
                         </div>
                         <div className="partners_first">
                             <Row>
-                                <Col span={1}></Col>
+                                <Col span={2}></Col>
                                 <div>
                                     <img src={today} alt="today"/>
                                 </div>
@@ -37,7 +37,7 @@ export default class Partners extends Component {
                     <div>
                         <div className="partners_first">
                             <Row>
-                                <Col span={1}></Col>
+                                <Col span={2}></Col>
                                 <div>
                                     <img src={cainiao} alt="cainiao"/>
                                 </div>
@@ -46,7 +46,7 @@ export default class Partners extends Component {
                         </div>
                         <div className="partners_first">
                             <Row>
-                                <Col span={1}></Col>
+                                <Col span={2}></Col>
                                 <div>
                                     <img src={today} alt="today"/>
                                 </div>
