@@ -82,6 +82,7 @@ export default class Nav extends Component {
                         </div></Col>
                     <Col span={1}></Col>
                 </Row>
+                {this.props.children}
             </div>
 
         );

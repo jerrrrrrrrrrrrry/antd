@@ -141,7 +141,7 @@ body {
   box-shadow: 0 3px 5px rgba(0,0,0,.3);
 }
 
-.nav_2 a {
+.nav_2 span {
   display: block;
   float: left;
   width: 25%;
@@ -163,4 +163,9 @@ body {
 
 .our_buss {
   margin-left: -20px;
+}
+
+.nav_2 span:hover, .nav_2 span.hover {
+  background: #ed001b;
+  color: #fff;
 }

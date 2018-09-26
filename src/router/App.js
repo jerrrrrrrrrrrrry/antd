@@ -16,7 +16,6 @@ export default class App extends Component {
                 <div>
                     <Switch>
                         <Route exact path='/' component={SiteIndex}/>
-                        <Route exact path='/details/:id' component={SiteDetails}/>
                         <Route exact path='/test' component={SiteTest}/>
                         <Route exact path='/id=1' component={SiteProfile}/>
                         <Route exact path='/id=5' component={SiteNews}/>

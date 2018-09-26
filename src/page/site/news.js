@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import Nav from '@/coms/nav.js'
 import Api from '@/tool/api.js'
 import News from '@/coms/news.js'
+import Nav_2 from '@/coms/nav_2.js'
 
 
 import Header from '@/coms/header'
@@ -45,14 +46,11 @@ export default class NewsList extends Component {
         }
         return (
             <div className="outer home">
-                {/* 我们像用 html 标签一样，使用我们的自定义组件，并通过标签的方式，传值 */}
                 <Nav></Nav>
                 <Banner/>
+                <Nav_2></Nav_2>
                 <News/>
                 <Foot/>
-
-                {/*<Header title='网站首页'></Header>
-                {dom}*/}
             </div>
         )
     }

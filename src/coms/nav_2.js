@@ -2,32 +2,44 @@ import React, {Component} from 'react'
 import {Row, Col} from 'antd';
 import {Layout, Menu, Breadcrumb, Icon} from 'antd';
 import {NavLink} from 'react-router-dom';
-import logo from '@/image/logo.png';
 
-const SubMenu = Menu.SubMenu;
-const Item = Menu.Item;
 
 export default class Nav_2 extends Component {
-
-    state = {
-        current: '',
+/*
+    construction(props){
+        this.state={
+            hover: false,
+        }
+        this.onMouseEnter = this.onMouseEnter.bind(this);
+        this.onMouseLeave = this.onMouseLeave.bind(this);
     }
 
-    handleClick = (e) => {
-        console.log('click ', e);
+    onMouseEnter(){
         this.setState({
-            current: e.key,
+            hover: true,
         });
     }
+
+    onMouseLeave(){
+        this.setState({
+            hover: false,
+        })
+    }*/
 
     render() {
         return (
             <div className="nav_2">
-                <a href="http://www.alog.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=13"
-                   className="hover">公司介绍</a><a
-                href="http://www.alog.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=25">新闻动态</a><a
-                href="http://www.alog.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=15">人才招聘</a><a
-                href="http://www.alog.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=16">联系我们</a>
+                <NavLink
+                    exact to="/id=1"
+                    activeStyle={{
+                        backgroundcolor: '#81ed80',
+                        color: '#ed001b'}}><span>公司介绍</span></NavLink>
+                <NavLink exact to="/id=5"
+                         activeStyle={{
+                             background: '#81ed80',
+                             color: '#ed001b'}}><span>企业新闻</span></NavLink>
+                <NavLink exact to="/id=1"><span>公司介绍</span></NavLink>
+                <NavLink exact to="/id=1"><span>公司介绍</span></NavLink>
             </div>
 
         );

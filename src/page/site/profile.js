@@ -8,7 +8,8 @@ import Nav_2 from '@/coms/nav_2.js'
 
 import Header from '@/coms/header'
 import Banner from "@/coms/banner";
-import Foot from "../../coms/foot";
+import Foot from "@/coms/foot";
+import MyProfile from "@/coms/profile.js";
 
 export default class Profile extends Component {
     constructor (props) {
@@ -29,31 +30,13 @@ export default class Profile extends Component {
     }
 
     render () {
-        let { list } = this.state
-        let dom = null
-        if (list.length !== 0) {
-            let listDom = list.map((i, k) => {
-                return (
-                    <li key={k}><Link to={`/details/${i.id}`}>{i.title}</Link></li>
-                )
-            })
-            dom = (
-                <div className='tipics_list'>
-                    <ul>{listDom}</ul>
-                </div>
-            )
-        }
         return (
             <div className="outer home">
-                {/* 我们像用 html 标签一样，使用我们的自定义组件，并通过标签的方式，传值 */}
                 <Nav></Nav>
                 <Banner/>
                 <Nav_2></Nav_2>
-
+                <MyProfile/>
                 <Foot/>
-
-                {/*<Header title='网站首页'></Header>
-                {dom}*/}
             </div>
         )
     }

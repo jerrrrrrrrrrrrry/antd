@@ -9,5 +9,10 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Unresolved variable or type _dirname " level="application" />
+    <orderEntry type="library" name="es6-sham" level="application" />
+    <orderEntry type="library" name="es6-shim" level="application" />
+    <orderEntry type="library" name="json3" level="application" />
+    <orderEntry type="library" name="es5-sham" level="application" />
+    <orderEntry type="library" name="es5-shim" level="application" />
   </component>
 </module>
