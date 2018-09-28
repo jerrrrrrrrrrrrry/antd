@@ -11,7 +11,7 @@ import Banner from "@/coms/banner";
 import Foot from "@/coms/foot";
 import MyProfile from "@/coms/profile.js";
 
-export default class Profile extends Component {
+export default class Nava_2 extends Component {
     constructor (props) {
         super(props)
         this.state = {
@@ -32,8 +32,9 @@ export default class Profile extends Component {
     render () {
         return (
             <div className="outer home">
+
                 <Banner/>
-                <MyProfile/>
+                <Nav_2/>
 
             </div>
         )

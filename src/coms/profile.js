@@ -28,8 +28,6 @@ export default class MyProfile extends Component {
                         <img src={profileimg}/>
                     </Col>
                 </Row>
-
-
             </div>
 
         );

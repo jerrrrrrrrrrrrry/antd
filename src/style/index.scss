@@ -139,6 +139,7 @@ body {
   position: relative;
   z-index: 999;
   box-shadow: 0 3px 5px rgba(0,0,0,.3);
+  z-index: 999999;
 }
 
 .nav_2 span {
@@ -146,9 +147,10 @@ body {
   float: left;
   width: 25%;
   text-align: center;
-  color: #595757;
   font-size: 18px;
+  color: #595757;
   border-left: 1px solid #e2e2e2;
+  decoration:none;
 }
 
 .buss {
@@ -167,5 +169,9 @@ body {
 
 .nav_2 span:hover, .nav_2 span.hover {
   background: #ed001b;
+  color: #fff;
+}
+
+.nav_2_1:hover, .nav_2_1.hover {
   color: #fff;
 }

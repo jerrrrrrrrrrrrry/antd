@@ -47,14 +47,13 @@ export default class Index extends Component {
             )
         }
         return (
-            <div className="outer home">
+            <div>
                 {/* 我们像用 html 标签一样，使用我们的自定义组件，并通过标签的方式，传值 */}
-                <Nav></Nav>
-                <Banner/>
+
                 <Bussness></Bussness>
                 <Newsindex/>
                 <Partners/>
-                <Foot/>
+
 
                 {/*<Header title='网站首页'></Header>
                 {dom}*/}
