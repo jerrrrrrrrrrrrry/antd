@@ -5,5 +5,6 @@ import '@/style/index.scss'
 import App from './router/App'
 import registerServiceWorker from './registerServiceWorker'
 
+
 ReactDOM.render(<App/>, document.getElementById('root'))
 registerServiceWorker()

@@ -7,6 +7,7 @@ import Partners from '@/coms/partners.js'
 import Bussness from '@/coms/bussness.js'
 import Newsindex from '@/coms/news_list_index.js'
 
+
 // 这样，调用我们的自定义的组件
 import Header from '@/coms/header'
 import Banner from "@/coms/banner";

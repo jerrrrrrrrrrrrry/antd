@@ -2,8 +2,8 @@
   width: 120px;
   height: 31px;
   background: rgba(255,255,255,.2);
-  margin: 16px 0px 16px 12px;
-  float: left;
+  margin: 16px 0px 16px 0px;
+
 }
 .navmenu {
   height: 100px;
@@ -26,7 +26,10 @@
   font-weight: bold;
   height: 60px;
   line-height: 60px;
+  width: 40px;
+  line-width: auto;
   text-transform: uppercase;
+
 
 }
 
@@ -114,4 +117,55 @@ body {
   font-size: 20px;
   color: #fff;
   margin: 0 0 20px 0;
+}
+
+.newsTitle {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  padding: 30px 0 30px 0;
+
+}
+
+.nav_2 {
+  width: 1000px;
+  margin: 0 auto;
+  height: 54px;
+  line-height: 52px;
+  margin-top: -47px;
+  border: 1px solid #e2e2e2;
+  border-left: none;
+  background: #fff;
+  position: relative;
+  z-index: 999;
+  box-shadow: 0 3px 5px rgba(0,0,0,.3);
+}
+
+.nav_2 span {
+  display: block;
+  float: left;
+  width: 25%;
+  text-align: center;
+  color: #595757;
+  font-size: 18px;
+  border-left: 1px solid #e2e2e2;
+}
+
+.buss {
+  display: block;
+  height: 35px;
+  line-height: 35px;
+/*  border-bottom: 1px solid #c9caca;*/
+  padding-left: 0px;
+  font-size: 16px;
+  color: #333;
+}
+
+.our_buss {
+  margin-left: -20px;
+}
+
+.nav_2 span:hover, .nav_2 span.hover {
+  background: #ed001b;
+  color: #fff;
 }
