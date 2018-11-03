@@ -3,6 +3,7 @@ import {Row, Col} from 'antd';
 import {Menu} from "antd/lib/menu";
 import {NavLink} from "react-router-dom";
 import phone from '@/image/phone.png';
+import gongshang from '@/image/gongshang.png';
 import {Breadcrumb} from 'antd';
 
 export default class Foot extends Component {
@@ -43,7 +44,22 @@ export default class Foot extends Component {
                         </div>
                     </Col>
                     <Col span={10} offset={1}>
-                        <div className="friendly_link">友情链接</div>
+                        <div className="friendly_link_title">友情链接</div>
+                        <div className="friendly_link">
+                            <div>
+                                <span>
+                                    <a href="http://www.bailiangroup.cn/" target='_BLANK'>百联集团</a>
+                                    <a href="http://www.bailiangroup.cn/" target='_BLANK'>百联配送</a>
+                                    <a href="http://www.bailiangroup.cn/" target='_BLANK'>上海物流与采购联合会</a>
+                                </span>
+                            </div>
+                            <div>
+                                <a href="http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&entyId=20120510111018725"
+                                   target='_BLANK'>
+                                    <span><img src={gongshang}/></span>
+                                </a>
+                            </div>
+                        </div>
                     </Col>
                 </Row>
 

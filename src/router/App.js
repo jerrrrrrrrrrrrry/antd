@@ -25,18 +25,18 @@ export default class App extends Component {
                 <div className="outer home">
                     <Nav>
                         <Banner>
-                        <Switch>
-                            <Route exact path='/' component={SiteIndex}/>
-                            <Route path="/nav_2" render={() =>
-                                <Nav_2>
-                                    <Switch>
-                                        <Route path="/nav_2/Profile" component={MyProfile}/>
-                                        <Route path="/nav_2/News" component={News}/>
-                                    </Switch>
-                                </Nav_2>
-                            }>
-                            </Route>
-                        </Switch>
+                            <Switch>
+                                <Route exact path='/' component={SiteIndex}/>
+                                <Route path="/nav_2" render={() =>
+                                    <Nav_2>
+                                        <Switch>
+                                            <Route path="/nav_2/Profile" component={MyProfile}/>
+                                            <Route path="/nav_2/News" component={News}/>
+                                        </Switch>
+                                    </Nav_2>
+                                }>
+                                </Route>
+                            </Switch>
                         </Banner>
                     </Nav>
                     <Foot/>
